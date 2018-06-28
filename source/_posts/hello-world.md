@@ -36,3 +36,8 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/deployment.html)
+
+### 生成静态页面并发布
+``` bash
+$ hexo d -g
+```

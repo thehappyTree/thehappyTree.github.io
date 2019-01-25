@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
+title: 李三三的博客
+subtitle: 
+description: 一个没有故事的小帅哥
 keywords:
-author: John Doe
-language:
+author: 李三三
+language: zh-Hans
 timezone:
 
 # URL
@@ -70,6 +70,9 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
+#head
+avatar: https://avatars0.githubusercontent.com/u/32305605?s=400&u=7e8ce447fe3853401240539d38f0e7da02cbdae0&v=4
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
@@ -81,3 +84,20 @@ deploy:
   type: git
   repo: git@github.com:thehappyTree/thehappyTree.github.io.git
   branch: master
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
+# Social links
+social:
+  GitHub: https://github.com/thehappyTree
+  Twitter: https://twitter.com/lisansan6
+  Instagram: https://www.instagram.com/lisansan84
+  FB Page: https://www.facebook.com/sansan.li.5680
+  YouTube: https://www.youtube.com/channel/UCkQB_V6TA7Enf-o2guwPD0A
+
+ 
+
